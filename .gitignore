@@ -1,0 +1,65 @@
+# ── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── 虚拟环境 ─────────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+ENV/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── 数据文件（大文件不入库）──────────────────────────────
+data/
+*.csv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# ── 模型权重 ─────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+*.bin
+models/
+checkpoints/
+
+# ── 密钥 / Token（绝对不要提交！）───────────────────────
+.env.local
+secrets.py
+config_private.py
+*.key
+*.pem
+
+# ── OS / IDE ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── 输出 / 临时文件 ───────────────────────────────────────
+output/
+outputs/
+results/
+logs/
+*.log
+
+# 上传脚本（含敏感信息，不入库）`nupload_to_github.ps1
+fix_and_push.ps1
